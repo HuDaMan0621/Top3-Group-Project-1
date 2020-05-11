@@ -13,7 +13,7 @@
 
 ![Result Page](./dist/images/resultpage.png)
 **Result page** - left 50% of the screen is the results and the other 50% of the screen is a google map.
-The top portion of the result page will display a picture of the location, following by the name of the location, country, and score rating from the API. An about section can be read in the same section.
+The top portion of the result page will display a picture of the location; it's on a loop of 2 second cycle to display an array of images we pull from the API. Following by the name of the location, country, and score rating from the API. An about section can be read in the same section.
 
 There will be 5 cards showing the top 3 of the results of the restaurants, hotels, tours, sightseeing, and nightlife. for example, the top 3 restaurants contain names of the restaurants and score ratings. Top 3 hotels contain names of the hotels and scores, so forth.
 
