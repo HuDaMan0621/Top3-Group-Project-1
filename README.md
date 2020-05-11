@@ -22,7 +22,7 @@
   *UI:
     1. CSS Grid was implemented for the layout of the website
 
-**Usage: Click on the link above to view the live website. [or Click Here]{https://digitalcrafts-gp1-top3.netlify.app/} 
+**Usage: Click on the link above to view the live website. [or Click Here](https://digitalcrafts-gp1-top3.netlify.app)
 
 ![Home Page](./dist/images/homepage.png)
 **Home Page** - when the user inputs a location. 'top3' will search the API according to the user input and return the results on the next page. the submit button will change to "loading", the background will load a picture of the result; after 2 seconds, a new result page will load.
