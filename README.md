@@ -11,6 +11,8 @@
 ![Home Page](./dist/images/homepage.png)
 **Home Page** - when the user inputs a location. 'top3' will search the API according to the user input and return the results on the next page. the submit button will change to "loading", the background will load a picture of the result; after 2 seconds, a new result page will load.
 
+*If the user enters an unknown location, an alert box will prompt and instruct the user to try re-entering a location.* 
+
 ![Result Page](./dist/images/resultpage.png)
 **Result page** - left 50% of the screen is the results and the other 50% of the screen is a google map.
 The top portion of the result page will display a picture of the location, following by the name of the location, country, and score rating from the API. An about section can be read in the same section.
