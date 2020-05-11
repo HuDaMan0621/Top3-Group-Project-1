@@ -10,19 +10,19 @@
 
 **Technologies used in this production includes: CSS, Javascript, HTML, Google maps API, and Triposo API.**
 
-**Obstacles encountered during the production:
-  *API: Triposo  
-    1. Learned how to retrieve the information from the API
-    2. Discovered ways to render information and images to the 'DOM' (Document Object Model) 
-    3. Discovered the ALL keyword to retrieve information from the query
-  *API: Google maps
-    1. Researched google documentation to restrict the google maps API key for unauthorized access/use 
-  *Functions: 
-    1. Overcame obstacles on obtaining the information from the session storage and linked each field of information to the corresponding fields in the 'DOM' (Document Object Model)
-  *UI:
-    1. CSS Grid was implemented for the layout of the website
+## Obstacles encountered during the production:
+### API: Triposo  
+1. Learned how to retrieve the information from the API
+2. Discovered ways to render information and images to the 'DOM' (Document Object Model) 
+3. Discovered the ALL keyword to retrieve information from the query
+### API: Google maps
+1. Researched google documentation to restrict the google maps API key for unauthorized access/use 
+### Functions: 
+1. Overcame obstacles on obtaining the information from the session storage and linked each field of information to the corresponding fields in the 'DOM' (Document Object Model)
+### UI:
+1. CSS Grid was implemented for the layout of the website
 
-**Usage: Click on the link above to view the live website. [or Click Here]{https://digitalcrafts-gp1-top3.netlify.app/} 
+**Usage: Click on the link above to view the live website. or** [Click Here](https://digitalcrafts-gp1-top3.netlify.app)
 
 ![Home Page](./dist/images/homepage.png)
 **Home Page** - when the user inputs a location. 'top3' will search the API according to the user input and return the results on the next page. the submit button will change to "loading", the background will load a picture of the result; after 2 seconds, a new result page will load.
