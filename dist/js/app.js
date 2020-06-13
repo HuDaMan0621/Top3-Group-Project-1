@@ -42,7 +42,7 @@ function handleButtonClick(e) {
   sightSeeingInfo(magicCaps);
 
   // API request: location
-  const endpoint = `https://www.triposo.com/api/20200405/location.json?id=${magicCaps}&fields=all&account=3XPHWAVV&token=ubjfil8myjnlk6z1t6m3dehs96y9upct`;
+  const endpoint = `https://www.triposo.com/api/20200405/location.json?id=${magicCaps}&fields=all&account=5GSC8JYD&token=sm8x8afyrwg0qhzaokoczk24qemxjse8`;
   const searchPromise = fetch(endpoint);
   searchPromise
     .then(response => response.json())
@@ -69,7 +69,7 @@ function handleButtonClick(e) {
 
 // API request: eats
 function eatInfo(cardInformation) {
-  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=eatingout&count=3&fields=id,name,score,price_tier&order_by=-eatingout_score&account=3XPHWAVV&token=ubjfil8myjnlk6z1t6m3dehs96y9upct`;
+  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=eatingout&count=3&fields=id,name,score,price_tier&order_by=-eatingout_score&account=5GSC8JYD&token=sm8x8afyrwg0qhzaokoczk24qemxjse8`;
   const searchPromise = fetch(endpoint);
   searchPromise
     .then(response => response.json())
@@ -82,7 +82,7 @@ function eatInfo(cardInformation) {
 
 // API request: hotels
 function hotelInfo(cardInformation) {
-  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=hotels&count=3&fields=id,name,score,price_tier&account=3XPHWAVV&token=ubjfil8myjnlk6z1t6m3dehs96y9upct`;
+  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=hotels&count=3&fields=id,name,score,price_tier&account=5GSC8JYD&token=sm8x8afyrwg0qhzaokoczk24qemxjse8`;
   const searchPromise = fetch(endpoint);
   searchPromise
     .then(response => response.json())
@@ -95,7 +95,7 @@ function hotelInfo(cardInformation) {
 
 // API request: tours
 function tourInfo(cardInformation) {
-  const endpoint = `https://www.triposo.com/api/20200405/tour.json?location_ids=${cardInformation}&count=3&fields=id,name,score,price,price_is_per_person,vendor,intro,tag_labels&order_by=-score&account=3XPHWAVV&token=ubjfil8myjnlk6z1t6m3dehs96y9upct`;
+  const endpoint = `https://www.triposo.com/api/20200405/tour.json?location_ids=${cardInformation}&count=3&fields=id,name,score,price,price_is_per_person,vendor,intro,tag_labels&order_by=-score&account=5GSC8JYD&token=sm8x8afyrwg0qhzaokoczk24qemxjse8`;
   const searchPromise = fetch(endpoint);
   searchPromise
     .then(response => response.json())
@@ -108,7 +108,7 @@ function tourInfo(cardInformation) {
 
 // API request: nightlife
 function nightlifeInfo(cardInformation) {
-  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=nightlife&count=3&fields=id,name,score,price_tier&account=3XPHWAVV&token=ubjfil8myjnlk6z1t6m3dehs96y9upct`;
+  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=nightlife&count=3&fields=id,name,score,price_tier&account=5GSC8JYD&token=sm8x8afyrwg0qhzaokoczk24qemxjse8`;
   const searchPromise = fetch(endpoint);
   searchPromise
     .then(response => response.json())
@@ -121,7 +121,7 @@ function nightlifeInfo(cardInformation) {
 
 // API request: sightseeing
 function sightSeeingInfo(cardInformation) {
-  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=sightseeing&count=3&fields=all&account=3XPHWAVV&token=ubjfil8myjnlk6z1t6m3dehs96y9upct`;
+  const endpoint = `https://www.triposo.com/api/20200405/poi.json?location_id=${cardInformation}&tag_labels=sightseeing&count=3&fields=all&account=5GSC8JYD&token=sm8x8afyrwg0qhzaokoczk24qemxjse8`;
   const searchPromise = fetch(endpoint);
   searchPromise
     .then(response => response.json())
